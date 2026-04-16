@@ -7,10 +7,10 @@ export function AboutHero() {
             About
           </span>
           <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-light leading-tight mb-6 text-balance">
-            Michael Gremillion
+            Michael Wood
           </h1>
           <p className="text-xl text-muted-foreground font-light">
-            Home Design Consultant &middot; Pastor &middot; Central Louisiana
+            Home Design Consultant &middot; Therapist &middot; Central Louisiana
           </p>
         </div>
       </div>

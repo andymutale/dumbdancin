@@ -25,7 +25,7 @@ export function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="flex flex-col">
               <span className="font-serif text-2xl font-light tracking-wide">
-                Michael Gremillion
+                Michael Wood
               </span>
               <span className="text-xs tracking-widest uppercase text-white/60 mt-1">
                 Design Consultant
@@ -98,7 +98,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-white/50">
-            &copy; {new Date().getFullYear()} Michael Gremillion. All rights reserved.
+            &copy; {new Date().getFullYear()} Michael Wood. All rights reserved.
           </p>
           <p className="text-xs text-white/50">
             Proudly serving Central Louisiana families

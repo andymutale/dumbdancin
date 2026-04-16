@@ -6,7 +6,7 @@ import { Church, Compass, Users, Award } from 'lucide-react'
 const backgrounds = [
   {
     icon: Church,
-    title: 'Pastoral Ministry',
+    title: 'Therapist Background',
     description: 'Decades of serving families in Pineville has given me a deep understanding of what makes a house truly become a home.',
   },
   {

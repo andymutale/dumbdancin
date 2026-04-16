@@ -55,10 +55,10 @@ export function ValuesSection() {
                   Schedule Consultation
                 </Link>
                 <a
-                  href="tel:318-524-8071"
+                  href="tel:318-254-2108"
                   className="px-6 py-3 border border-white/30 text-sm uppercase tracking-wider text-center hover:bg-white hover:text-primary transition-all duration-300"
                 >
-                  318-524-8071
+                  318-254-2108
                 </a>
               </div>
             </div>

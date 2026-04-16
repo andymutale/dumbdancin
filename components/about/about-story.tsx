@@ -13,7 +13,7 @@ export function AboutStory() {
             <div className="relative aspect-[3/4] overflow-hidden sticky top-32">
               <Image
                 src="/images/michael-portrait.jpg"
-                alt="Michael Gremillion - Home Design Consultant"
+                alt="Michael Wood - Home Design Consultant"
                 fill
                 className="object-cover"
               />
@@ -40,7 +40,7 @@ export function AboutStory() {
 
             <Reveal delay={200}>
               <p className="text-muted-foreground leading-relaxed">
-                In ministry, I&apos;ve learned that homes are far more than structures—they&apos;re the foundation of family life, the backdrop for memories, and the place where faith takes root. This understanding shapes every consultation I have with families looking to build.
+                In my work as a therapist, I&apos;ve learned that homes are far more than structures—they&apos;re the foundation of family life, the backdrop for memories, and the place where faith takes root. This understanding shapes every consultation I have with families looking to build.
               </p>
             </Reveal>
 

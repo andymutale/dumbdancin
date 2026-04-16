@@ -12,11 +12,11 @@ export function ContactInfo() {
         {/* Phone */}
         <div className="mb-8">
           <a
-            href="tel:318-524-8071"
+            href="tel:318-254-2108"
             className="inline-flex items-center gap-3 text-3xl font-serif font-light text-accent hover:text-primary transition-colors"
           >
             <Phone className="w-6 h-6" />
-            318-524-8071
+            318-254-2108
           </a>
           <p className="text-muted-foreground mt-2 text-sm">
             Call or text anytime. I&apos;m happy to answer quick questions.

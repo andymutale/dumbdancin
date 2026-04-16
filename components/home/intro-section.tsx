@@ -38,7 +38,7 @@ export function IntroSection() {
             </Reveal>
             <Reveal delay={300}>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                I&apos;m Michael Gremillion, a home design consultant serving families throughout Central Louisiana. As a pastor in Pineville and a UBH design consultant, I bring a unique perspective to homebuilding—one rooted in faith, family, and creating spaces where both can flourish.
+                I&apos;m Michael Wood, a home design consultant serving families throughout Central Louisiana. As a UBH design consultant, I bring a unique perspective to homebuilding—one rooted in faith, family, and creating spaces where both can flourish.
               </p>
             </Reveal>
             <Reveal delay={400}>

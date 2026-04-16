@@ -45,7 +45,7 @@ export function Nav() {
           {/* Logo */}
           <Link href="/" className="flex flex-col">
             <span className="font-serif text-xl md:text-2xl font-light tracking-wide text-primary">
-              Michael Gremillion
+              Michael Wood
             </span>
             <span className="text-xs tracking-widest uppercase text-muted-foreground">
               Design Consultant
