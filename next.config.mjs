@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  allowedDevOrigins: ['192.168.0.116'],
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -7,5 +8,4 @@ const nextConfig = {
     unoptimized: true,
   },
 }
-
 export default nextConfig
