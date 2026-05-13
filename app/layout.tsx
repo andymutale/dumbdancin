@@ -20,11 +20,11 @@ const cormorant = Cormorant_Garamond({
 })
 
 export const metadata: Metadata = {
-  title: 'Michael Gremillion | UBH Design Consultant - Custom Homes in Central Louisiana',
-  description: 'Build permanence and peace—one home at a time. Michael Gremillion is a UBH Pineville consultant helping families build custom homes on their own land in Cenla.',
-  keywords: 'UBH Pineville consultant, Cenla homes, build on your own land, custom homes in Central Louisiana, home design consultant',
+  title: 'Michael Wood |  Design Consultant - Custom Homes in Central Louisiana',
+  description: 'Build permanence and peace—one home at a time. Michael Wood is a Pineville consultant helping families build custom homes on their own land in Cenla.',
+  keywords: ' Pineville consultant, Cenla homes, build on your own land, custom homes in Central Louisiana, home design consultant',
   openGraph: {
-    title: 'Michael Gremillion | UBH Design Consultant',
+    title: 'Michael Wood | Design Consultant',
     description: 'Build permanence and peace—one home at a time in Central Louisiana.',
     type: 'website',
   },
