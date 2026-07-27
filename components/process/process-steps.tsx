@@ -23,7 +23,7 @@ const steps = [
     subtitle: 'Planning Your Dream',
     description: 'With a clear understanding of your needs, we move into the exciting design phase. Together, we\'ll explore floor plans, layouts, and features that fit your lifestyle. I\'ll help you balance wants and needs, making sure your design is both beautiful and practical.',
     details: [
-      'Review UBH floor plans and customization options',
+      'Review our floor plans and customization options',
       'Select features and finishes that suit your style',
       'Work within your budget without compromising quality',
       'Create a home design that fits your land perfectly',
