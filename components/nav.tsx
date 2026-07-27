@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
 
@@ -15,6 +15,8 @@ const navLinks = [
 export function Nav() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const menuButtonRef = useRef<HTMLButtonElement>(null)
+  const closeButtonRef = useRef<HTMLButtonElement>(null)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,9 +29,21 @@ export function Nav() {
   useEffect(() => {
     if (isMobileMenuOpen) {
       document.body.style.overflow = 'hidden'
+      closeButtonRef.current?.focus()
     } else {
       document.body.style.overflow = 'unset'
     }
+  }, [isMobileMenuOpen])
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && isMobileMenuOpen) {
+        setIsMobileMenuOpen(false)
+        menuButtonRef.current?.focus()
+      }
+    }
+    document.addEventListener('keydown', handleKeyDown)
+    return () => document.removeEventListener('keydown', handleKeyDown)
   }, [isMobileMenuOpen])
 
   return (
@@ -73,17 +87,24 @@ export function Nav() {
 
           {/* Mobile Menu Button */}
           <button
+            ref={menuButtonRef}
             onClick={() => setIsMobileMenuOpen(true)}
             className="lg:hidden p-2 text-primary"
             aria-label="Open menu"
+            aria-expanded={isMobileMenuOpen}
+            aria-controls="mobile-menu"
           >
-            <Menu className="w-6 h-6" />
+            <Menu className="w-6 h-6" aria-hidden="true" />
           </button>
         </nav>
       </header>
 
       {/* Mobile Menu Overlay */}
       <div
+        id="mobile-menu"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Mobile navigation"
         className={`fixed inset-0 z-50 lg:hidden transition-all duration-500 ${
           isMobileMenuOpen ? 'visible' : 'invisible'
         }`}
@@ -94,6 +115,7 @@ export function Nav() {
             isMobileMenuOpen ? 'opacity-100' : 'opacity-0'
           }`}
           onClick={() => setIsMobileMenuOpen(false)}
+          aria-hidden="true"
         />
 
         {/* Menu Panel */}
@@ -107,11 +129,12 @@ export function Nav() {
             <div className="flex items-center justify-between p-6 border-b border-border">
               <span className="font-serif text-xl font-light">Menu</span>
               <button
+                ref={closeButtonRef}
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="p-2 text-primary"
                 aria-label="Close menu"
               >
-                <X className="w-6 h-6" />
+                <X className="w-6 h-6" aria-hidden="true" />
               </button>
             </div>
 
@@ -142,8 +165,8 @@ export function Nav() {
                 Schedule Consultation
               </Link>
               <p className="mt-4 text-center text-sm text-muted-foreground">
-                <a href="tel:318-524-8071" className="hover:text-accent transition-colors">
-                  318-524-8071
+                <a href="tel:318-524-6549" className="hover:text-accent transition-colors">
+                  318-524-6549
                 </a>
               </p>
             </div>

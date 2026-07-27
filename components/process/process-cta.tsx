@@ -29,10 +29,10 @@ export function ProcessCTA() {
                 Schedule Free Consultation
               </Link>
               <a
-                href="tel:318-524-8071"
+                href="tel:318-524-6549"
                 className="btn-secondary"
               >
-                Call 318-524-8071
+                Call 318-524-6549
               </a>
             </div>
           </Reveal>

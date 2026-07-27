@@ -75,7 +75,7 @@ export function ProcessSteps() {
                 <div className={`relative aspect-[4/3] overflow-hidden ${index % 2 === 1 ? 'lg:order-2' : ''}`}>
                   <Image
                     src={step.image}
-                    alt={step.title}
+                    alt={`${step.subtitle} — step ${step.number} of the custom home building process`}
                     fill
                     className="object-cover"
                   />

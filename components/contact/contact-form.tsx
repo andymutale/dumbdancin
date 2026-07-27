@@ -35,7 +35,7 @@ export function ContactForm() {
   if (isSubmitted) {
     return (
       <Reveal>
-        <div className="bg-muted p-12 text-center">
+        <div className="bg-muted p-12 text-center" role="status" aria-live="polite">
           <h3 className="font-serif text-3xl font-light mb-4">Thank You!</h3>
           <p className="text-muted-foreground leading-relaxed">
             I&apos;ve received your message and will be in touch within 24 hours. Looking forward to discussing your home building journey.
@@ -53,7 +53,7 @@ export function ContactForm() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div>
               <label htmlFor="name" className="block text-sm font-medium mb-2">
-                Your Name <span className="text-accent">*</span>
+                Your Name <span className="text-accent" aria-hidden="true">*</span><span className="sr-only"> (required)</span>
               </label>
               <input
                 type="text"
@@ -62,7 +62,7 @@ export function ContactForm() {
                 required
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-border bg-white focus:border-accent focus:outline-none transition-colors"
+                className="w-full px-4 py-3 border border-border bg-white focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/50 transition-colors"
                 placeholder="John Smith"
               />
             </div>
@@ -76,7 +76,7 @@ export function ContactForm() {
                 name="phone"
                 value={formData.phone}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-border bg-white focus:border-accent focus:outline-none transition-colors"
+                className="w-full px-4 py-3 border border-border bg-white focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/50 transition-colors"
                 placeholder="(318) 555-0123"
               />
             </div>
@@ -84,7 +84,7 @@ export function ContactForm() {
 
           <div>
             <label htmlFor="email" className="block text-sm font-medium mb-2">
-              Email Address <span className="text-accent">*</span>
+              Email Address <span className="text-accent" aria-hidden="true">*</span><span className="sr-only"> (required)</span>
             </label>
             <input
               type="email"
@@ -93,7 +93,7 @@ export function ContactForm() {
               required
               value={formData.email}
               onChange={handleChange}
-              className="w-full px-4 py-3 border border-border bg-white focus:border-accent focus:outline-none transition-colors"
+              className="w-full px-4 py-3 border border-border bg-white focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/50 transition-colors"
               placeholder="john@example.com"
             />
           </div>
@@ -107,7 +107,7 @@ export function ContactForm() {
               name="landStatus"
               value={formData.landStatus}
               onChange={handleChange}
-              className="w-full px-4 py-3 border border-border bg-white focus:border-accent focus:outline-none transition-colors"
+              className="w-full px-4 py-3 border border-border bg-white focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/50 transition-colors"
             >
               <option value="">Select an option</option>
               <option value="own">Yes, I own land</option>
@@ -119,7 +119,7 @@ export function ContactForm() {
 
           <div>
             <label htmlFor="message" className="block text-sm font-medium mb-2">
-              Tell me about your vision <span className="text-accent">*</span>
+              Tell me about your vision <span className="text-accent" aria-hidden="true">*</span><span className="sr-only"> (required)</span>
             </label>
             <textarea
               id="message"
@@ -128,7 +128,7 @@ export function ContactForm() {
               rows={5}
               value={formData.message}
               onChange={handleChange}
-              className="w-full px-4 py-3 border border-border bg-white focus:border-accent focus:outline-none transition-colors resize-none"
+              className="w-full px-4 py-3 border border-border bg-white focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/50 transition-colors resize-none"
               placeholder="Share your dreams for your new home..."
             />
           </div>

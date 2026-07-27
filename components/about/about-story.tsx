@@ -34,13 +34,13 @@ export function AboutStory() {
 
             <Reveal delay={100}>
               <p className="text-muted-foreground leading-relaxed">
-                For over two decades, I&apos;ve had the privilege of serving the Central Louisiana community in two distinct but deeply connected roles: as a pastor in Pineville and as a home design consultant with United Built Homes.
+                For over two decades, I&apos;ve had the privilege of serving the Central Louisiana community, and for the past several years I&apos;ve brought that same care to home design as a consultant with United Built Homes.
               </p>
             </Reveal>
 
             <Reveal delay={200}>
               <p className="text-muted-foreground leading-relaxed">
-                In my work as a therapist, I&apos;ve learned that homes are far more than structures—they&apos;re the foundation of family life, the backdrop for memories, and the place where faith takes root. This understanding shapes every consultation I have with families looking to build.
+                In my work with families across Cenla, I&apos;ve learned that homes are far more than structures—they&apos;re the foundation of family life, the backdrop for memories, and the place where faith takes root. This understanding shapes every consultation I have with families looking to build.
               </p>
             </Reveal>
 

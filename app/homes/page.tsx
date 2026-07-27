@@ -6,6 +6,9 @@ import { HomesCTA } from '@/components/homes/homes-cta'
 export const metadata: Metadata = {
   title: 'Concept Homes | Custom Home Designs in Central Louisiana',
   description: 'Explore concept home designs and styles available for custom building in Cenla. From craftsman to modern farmhouse, find inspiration for your dream home.',
+  alternates: {
+    canonical: '/homes',
+  },
 }
 
 export default function HomesPage() {

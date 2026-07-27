@@ -100,6 +100,15 @@
     opacity: 1;
     transform: translateY(0);
   }
+
+  @media (prefers-reduced-motion: reduce) {
+    .reveal,
+    .reveal.active {
+      transition: none;
+      transform: none;
+      opacity: 1;
+    }
+  }
   
   .grayscale-hover {
     @apply grayscale transition-all duration-500 hover:grayscale-0;

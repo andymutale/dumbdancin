@@ -4,8 +4,11 @@ import { ContactForm } from '@/components/contact/contact-form'
 import { ContactInfo } from '@/components/contact/contact-info'
 
 export const metadata: Metadata = {
-  title: 'Contact | Schedule a Free Consultation - Michael Gremillion',
-  description: 'Schedule a free consultation with Michael Gremillion to discuss your custom home project in Central Louisiana. Call 318-524-8071 or fill out our contact form.',
+  title: 'Contact | Schedule a Free Consultation - Michael Wood',
+  description: 'Schedule a free consultation with Michael Wood to discuss your custom home project in Central Louisiana. Call 318-524-6549 or fill out our contact form.',
+  alternates: {
+    canonical: '/contact',
+  },
 }
 
 export default function ContactPage() {

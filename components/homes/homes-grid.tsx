@@ -74,7 +74,7 @@ export function HomesGrid() {
                 <div className="relative aspect-[4/3] overflow-hidden">
                   <Image
                     src={home.image}
-                    alt={home.title}
+                    alt={`Exterior view of the ${home.title} concept home, a ${home.style.toLowerCase()} style design`}
                     fill
                     className="object-cover grayscale-hover group-hover:scale-105 transition-transform duration-700"
                   />
@@ -95,15 +95,15 @@ export function HomesGrid() {
                   {/* Specs */}
                   <div className="flex items-center gap-6 pt-4 border-t border-border">
                     <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                      <Bed className="w-4 h-4" />
+                      <Bed className="w-4 h-4" aria-hidden="true" />
                       <span>{home.beds} Beds</span>
                     </div>
                     <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                      <Bath className="w-4 h-4" />
+                      <Bath className="w-4 h-4" aria-hidden="true" />
                       <span>{home.baths} Baths</span>
                     </div>
                     <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                      <Maximize className="w-4 h-4" />
+                      <Maximize className="w-4 h-4" aria-hidden="true" />
                       <span>{home.sqft} sqft</span>
                     </div>
                   </div>

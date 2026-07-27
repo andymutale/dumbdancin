@@ -10,7 +10,7 @@ export function AboutHero() {
             Michael Wood
           </h1>
           <p className="text-xl text-muted-foreground font-light">
-            Home Design Consultant &middot; Therapist &middot; Central Louisiana
+            Home Design Consultant &middot; Central Louisiana
           </p>
         </div>
       </div>

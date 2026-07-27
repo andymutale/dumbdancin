@@ -76,10 +76,10 @@ export function Footer() {
             </h4>
             <div className="space-y-4">
               <a
-                href="tel:318-524-8071"
+                href="tel:318-524-6549"
                 className="block text-2xl font-serif font-light text-accent hover:text-white transition-colors"
               >
-                318-524-8071
+                318-524-6549
               </a>
               <p className="text-sm text-white/70 leading-relaxed">
                 UBH Pineville Consultant<br />
@@ -89,7 +89,7 @@ export function Footer() {
                 href="/contact"
                 className="inline-block mt-4 px-6 py-3 border border-white/30 text-sm uppercase tracking-wider hover:bg-white hover:text-primary transition-all duration-300"
               >
-                Schedule a Call
+                Schedule a Call 
               </Link>
             </div>
           </div>
