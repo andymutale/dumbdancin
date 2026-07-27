@@ -5,7 +5,7 @@ import { BackgroundSection } from '@/components/about/background-section'
 import { ValuesSection } from '@/components/about/values-section'
 
 export const metadata: Metadata = {
-  title: 'About Michael Wood | UBH Design Consultant in Pineville, LA',
+  title: 'About Michael Wood |  Design Consultant in Pineville, LA',
   description: 'Meet Michael Wood, a UBH home design consultant in Pineville, Louisiana, helping Cenla families build custom homes with care and attention to detail.',
   alternates: {
     canonical: '/about',

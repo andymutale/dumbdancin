@@ -50,8 +50,8 @@ export const metadata: Metadata = {
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'HomeAndConstructionBusiness',
-  name: 'Michael Wood | UBH Design Consultant',
-  description: 'UBH design consultant helping Central Louisiana families build custom homes on their own land.',
+  name: 'Michael Wood |  Design Consultant',
+  description: 'Design consultant helping Central Louisiana families build custom homes on their own land.',
   url: 'https://dumbdancin.netlify.app',
   telephone: '+1-318-524-6549',
   areaServed: [
