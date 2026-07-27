@@ -12,7 +12,7 @@ const backgrounds = [
   {
     icon: Compass,
     title: 'Design Expertise',
-    description: 'As a UBH consultant, I bring technical knowledge and creative vision to help translate your dreams into buildable plans.',
+    description: 'As a consultant, I bring technical knowledge and creative vision to help translate your dreams into buildable plans.',
   },
   {
     icon: Users,

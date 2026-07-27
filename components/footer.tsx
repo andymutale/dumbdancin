@@ -82,7 +82,7 @@ export function Footer() {
                 318-524-6549
               </a>
               <p className="text-sm text-white/70 leading-relaxed">
-                UBH Pineville Consultant<br />
+                Pineville Consultant<br />
                 Pineville, Louisiana
               </p>
               <Link

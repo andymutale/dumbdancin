@@ -42,17 +42,17 @@ export function ContactInfo() {
               <p className="text-muted-foreground text-sm">
                 Monday – Friday: 8am – 6pm<br />
                 Saturday: By appointment<br />
-                Sunday: Church first, then available
+                
               </p>
             </div>
           </div>
         </div>
 
-        {/* UBH Info */}
+        {/*  Info */}
         <div className="bg-muted p-8 border-l-4 border-accent">
-          <h3 className="font-serif text-xl font-light mb-3">About UBH</h3>
+          <h3 className="font-serif text-xl font-light mb-3">About us</h3>
           <p className="text-muted-foreground text-sm leading-relaxed mb-4">
-            United Built Homes (UBH) has been helping families build custom homes on their own land since 1959. As your local UBH consultant, I bring their proven building expertise together with personal, attentive service.
+             
           </p>
           <ul className="text-sm text-muted-foreground space-y-2">
             <li className="flex items-center gap-2">

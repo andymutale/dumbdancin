@@ -21,7 +21,7 @@ export function HeroSection() {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center text-white">
         <p className="text-sm tracking-[0.3em] uppercase mb-6 animate-fade-in opacity-80">
-          UBH Pineville Design Consultant
+          Pineville Design Consultant
         </p>
         <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-light leading-tight mb-8 text-balance">
           Build Permanence<br />

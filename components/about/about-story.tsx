@@ -34,7 +34,7 @@ export function AboutStory() {
 
             <Reveal delay={100}>
               <p className="text-muted-foreground leading-relaxed">
-                For over two decades, I&apos;ve had the privilege of serving the Central Louisiana community, and for the past several years I&apos;ve brought that same care to home design as a consultant with United Built Homes.
+                For over two decades, I&apos;ve had the privilege of serving the Central Louisiana community, and for the past several years I&apos;ve brought that same care to home design as a consultant.
               </p>
             </Reveal>
 
