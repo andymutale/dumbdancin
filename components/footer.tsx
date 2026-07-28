@@ -101,7 +101,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} Michael Wood. All rights reserved.
           </p>
           <p className="text-xs text-white/50">
-            Proudly serving Central Louisiana families
+            Fictional Demo
           </p>
         </div>
       </div>
