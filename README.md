@@ -12,7 +12,7 @@ The site's tagline is "Build permanence and peace—one home at a time." It's a 
 
 | Home (desktop) | Contact (desktop) |
 |---|---|
-| ![Home page](docs/screenshots/home-desktop.png) | ![Contact page](docs/screenshots/contact-desktop.jpg) |
+| ![Home page](home-desktop.png) | ![Contact page](docs/screenshots/contact-desktop.jpg) |
 
 | Contact (tablet) | Mobile menu |
 |---|---|
