@@ -446,4 +446,20 @@ People who want a home they actually want to come home to.
 ### Made hopefully before
 
 The next “quick little change” turns into a complete rebuild.
+---
+
+---
+
+<div align="center">
+
+<img src="./ascii.png" alt="PrecisionCore ASCII artwork" width="100%">
+
+### ADARETH LABS
+
+**Digital product design · Engineering · Systems architecture**
+
+> **Build the system, not just the screen.**
+
+</div>
+
 
