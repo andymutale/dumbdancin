@@ -452,7 +452,7 @@ The next “quick little change” turns into a complete rebuild.
 
 <div align="center">
 
-<img src="./Herrera_el_mozo-sueño_de_san_josé.png" alt="PrecisionCore ASCII artwork" width="100%">
+<img src="./Herrera_el_mozo-sueño_de_san_josé.jpg" alt="PrecisionCore ASCII artwork" width="100%">
 
 ### ADARETH LABS
 
