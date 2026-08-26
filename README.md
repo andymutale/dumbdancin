@@ -452,7 +452,7 @@ The next “quick little change” turns into a complete rebuild.
 
 <div align="center">
 
-<img src="./ascii.png" alt="PrecisionCore ASCII artwork" width="100%">
+<img src="public/ascii.png" alt="PrecisionCore ASCII artwork" width="100%">
 
 ### ADARETH LABS
 
